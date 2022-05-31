@@ -1,5 +1,8 @@
 # React finance-test-task
- React/Redux/SCSS/BEM
+ React/Redux/SCSS/BEM/WebSockets
+ 
+# Description 
+ Online application where you can see corporate actions prices. In creating this application used React Hooks, Redux, WebSockets.
 
 ## Installing
 - Fork and clone this repository
