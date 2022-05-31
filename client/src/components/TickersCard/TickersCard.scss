@@ -1,0 +1,65 @@
+@import '../../styles/vars.scss';
+
+.ticker {
+    display: flex;
+    align-items: center;
+    background-color: $white-color;
+    border: 1px solid $ticker-border;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    white-space: nowrap;
+    width: 130px;
+    letter-spacing: .025em;
+    line-height: 1rem;
+    text-size-adjust: 100%;
+
+    &__icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+        margin-right: 8px;
+
+        &-up {
+            background-color: $icon-green;
+        }
+
+        &-down {
+            background-color: $icon-red;
+        }
+
+        &-image {
+            margin: 8px;
+        }
+    }
+
+    &__title {
+        margin-right: 8px;
+        font-size: .75rem;
+        font-weight: 400;
+        max-width: 120px;
+        font-family: 'Roboto', sans-serif;
+        color: $black-color;
+    }
+
+    &__difference {
+        font-size: .75rem;
+        font-weight: 400;
+        max-width: 120px;
+        font-family: 'Roboto', sans-serif;
+
+        &-up {
+            color: $text-green;
+        }
+
+        &-down {
+            color: $text-red;
+        }
+    }
+}

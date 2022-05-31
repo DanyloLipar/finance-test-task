@@ -1,0 +1,1 @@
+export const loadTickersSelector = (state) => state.tickers;

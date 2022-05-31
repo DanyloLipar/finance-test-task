@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Roboto:wght@300;400;700&display=swap');
+@import './vars.scss';
+
+body {
+    margin: 0;
+    background-image: url(//ssl.gstatic.com/finance/images/landingpage4.svg);
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+}
+
+.finance {
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: 'DM Sans', sans-serif;
+    color: $logo-color;
+
+    &__items {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+        align-items: center;
+        margin-top: 20px;
+    }
+}
